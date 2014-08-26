@@ -27,7 +27,7 @@ Simple console application that manages a travel agency.
   - Client administration.
   - Does not allow multiple instances.
 
-- Client
+- Client:
   - Search for flights.
   - Get flights information.
   - Schedule or cancel a flight.
