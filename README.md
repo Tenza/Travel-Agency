@@ -8,12 +8,14 @@ Simple console application that manages a travel agency.
 - The project itself is in Portuguese, although all the code and comments are in English.
 - This project was not built to be used, but to illustrate client-server communication using named pipes in Unix.
 - This project is not const corrected on purpose.
+- Since everything is managed on the server, the client and admin applications are exactly the same. (It is pointless, but the assinment said so.)
 
 ###Features
 
 - Server:
   - Stores and manages all the data.
-  - There is no direct interaction, it executes in background.
+  - There is no direct interaction (unless startup checks fail).
+  - Executes in background.
   - Does not allow multiple instances.
 
 - Admin:
